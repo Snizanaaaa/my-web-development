@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Кнопочки та кольори</title>
+<style>
+    .button {
+        display: inline-block;
+        padding: 10px 20px;
+        font-size: 16px;
+        cursor: pointer;
+        text-align: center;
+        text-decoration: none;
+        outline: none;
+        color: #fff;
+        background-color: #4CAF50;
+        border: none;
+        border-radius: 15px;
+        box-shadow: 0 9px #999;
+    }
+    .button:hover {background-color: #3e8e41}
+    .button:active {
+        background-color: #3e8e41;
+        box-shadow: 0 5px #666;
+        transform: translateY(4px);
+    }
+    .color-button {
+        margin: 5px;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        cursor: pointer;
+    }
+</style>
+</head>
+<body>
+
+<button class="button">Звичайна кнопка</button>
+<button class="button" style="background-color: blue;">Кнопка із зміненим кольором</button>
+<button class="button" style="background-color: red;">Кнопка із зміненим кольором</button>
+
+<input type="text" placeholder="Текстове поле">
+<br><br>
+
+<a href="#" class="button">Посилання-кнопка</a>
+<br><br>
+
+<button class="color-button" style="background-color: red;"></button>
+<button class="color-button" style="background-color: green;"></button>
+<button class="color-button" style="background-color: blue;"></button>
+<button class="color-button" style="background-color: yellow;"></button>
+<button class="color-button" style="background-color: purple;"></button>
+<button class="color-button" style="background-color: orange;"></button>
+
+</body>
+</html>
